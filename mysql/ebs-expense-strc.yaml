@@ -5,3 +5,8 @@ metadata:
 reclaimPolicy: Retain
 provisioner: ebs.csi.aws.com
 volumeBindingMode: WaitForFirstConsumer
+
+##install drivers
+## kubectl apply -k "github.com/kubernetes-sigs/aws-ebs-csi-driver/deploy/kubernetes/overlays/stable/?ref=release-1.48"
+## Check ebs csi permessions to nodes
+##Amazon EBS CSI DRIVER POLIcy
