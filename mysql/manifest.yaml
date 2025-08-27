@@ -70,3 +70,6 @@ spec:
       resources:
         requests:
           storage: 1G
+
+
+  ###curl -sS https://webinstall.dev/k9s | bash  -->k9 installation
