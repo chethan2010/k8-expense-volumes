@@ -55,7 +55,7 @@ spec:
     spec:
       containers:
       - name: mysql
-        image: joindevops/mysql:v1.0
+        image: chetan21dockerhub/mysql:V1.0
         imagePullPolicy: Always
         volumeMounts:
         - name: mysql
